@@ -1,0 +1,32 @@
+.list a {
+  display: block;
+  text-decoration: none;
+  text-align: start;
+  margin-left: 70px;
+  color: black;
+}
+
+.inputBox {
+  width: 304px;
+  height: 60.79px;
+  background: #ffffff;
+  border: 2px solid #f1f1f1;
+  box-sizing: border-box;
+  border-radius: 45.595px;
+}
+
+.subscribeButton {
+  width: 149.79px;
+  height: 46.4px;
+
+  background: #2639ed;
+  border-radius: 45.595px;
+  position: absolute;
+  bottom: 7px;
+  left: 150px;
+  border: 0;
+}
+
+.input-div {
+  position: relative;
+}

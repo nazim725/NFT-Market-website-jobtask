@@ -1,0 +1,10 @@
+.appBar button {
+  background: rgba(220, 220, 220, 0.2);
+  border-radius: 100px;
+  border: 0;
+  /* width: 140px; */
+}
+.appBar button:hover {
+  background-color: blue;
+  color: aliceblue;
+}

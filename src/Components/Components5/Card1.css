@@ -1,0 +1,33 @@
+.card1 {
+  position: relative;
+  width: 240.88px;
+  background-color: rgba(250, 235, 215, 0.342);
+  padding: 3px;
+}
+.card1img {
+  position: absolute;
+  top: 200px;
+  left: 20px;
+}
+
+.timeButton {
+  background: rgba(220, 220, 220, 0.2);
+  border-radius: 100px;
+  border: 0;
+  padding: 2px;
+}
+
+@media screen and (max-width: 768px) {
+  .card1 {
+    position: relative;
+    width: 300px;
+    background-color: rgba(250, 235, 215, 0.342);
+    padding: 3px;
+    margin-top: 20px;
+  }
+  .card1img {
+    position: absolute;
+    top: 200px;
+    left: 30px;
+  }
+}

@@ -1,0 +1,15 @@
+.bidButton {
+  margin: 0 10px;
+  width: 120px;
+  height: 40px;
+
+  border: 2px solid #3d00b7;
+  box-sizing: border-box;
+  border-radius: 60px;
+  background: #ffffff;
+  color: #3d00b7;
+}
+.bidButton:hover {
+  background: #3d00b7;
+  color: #ffffff;
+}
