@@ -15,11 +15,11 @@ import imgprofile from "../../images/Ellipse 95.png";
 
 const Components3 = () => {
   return (
-    <div className="mt-5">
+    <div className="">
       <Container>
         <Row>
           <h3 className="fw-bold text-start my-5 ">Collection Featured NFTs</h3>
-          <Col sm={12} md={4} xs={12}>
+          <Col sm={12} md={4} xs={12} className="mt-4">
             <Row>
               <Col className="col-6">
                 <img src={img1} alt="" width={200} height="270" />
@@ -45,7 +45,7 @@ const Components3 = () => {
               </Col>
             </Row>
           </Col>
-          <Col sm={12} md={4} xs={12}>
+          <Col sm={12} md={4} xs={12} className="mt-4">
             <Row>
               <Col className="col-6">
                 <img src={img5} alt="" width={200} height="270" />
@@ -71,7 +71,7 @@ const Components3 = () => {
               </Col>
             </Row>
           </Col>
-          <Col sm={12} md={4} xs={12}>
+          <Col sm={12} md={4} xs={12} className="mt-4">
             <Row>
               <Col className="col-6">
                 <img src={img7} alt="" width={200} height="270" />

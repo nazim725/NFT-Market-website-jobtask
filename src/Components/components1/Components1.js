@@ -16,12 +16,12 @@ const Components1 = () => {
     >
       <Container className="my-5">
         <Row>
-          <Col sm={12} md={4} xs={12}>
+          <Col sm={12} md={4} xs={12} className="mt-4">
             <h2>
               The amazing NFT art <br /> of the world here
             </h2>
           </Col>
-          <Col sm={12} md={4} xs={12}>
+          <Col sm={12} md={4} xs={12} className="mt-4">
             <Row>
               <Col class="col-2">
                 <img src={img1} alt="" />
@@ -35,7 +35,7 @@ const Components1 = () => {
               </Col>
             </Row>
           </Col>
-          <Col sm={12} md={4} xs={12}>
+          <Col sm={12} md={4} xs={12} className="mt-4">
             <Row>
               <Col class="col-2">
                 <img src={img2} alt="" />

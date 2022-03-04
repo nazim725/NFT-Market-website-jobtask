@@ -12,10 +12,12 @@ const Card3 = () => {
     <div className="card1">
       <img src="https://i.ibb.co/WKrwmGD/image-1-3.png" alt="" width="230" />
       <div className="card1img">
-        <img src={img1} alt="" />
-        <img src={img2} alt="" />
-        <img src={img3} alt="" />
-        <img src={img4} alt="" />
+        <div className="circleimg">
+          <img src={img1} alt="" className="circleimg-1" />
+          <img src={img2} alt="" className="circleimg-2" />
+          <img src={img3} alt="" className="circleimg-3" />
+          <img src={img4} alt="" className="circleimg-4" />
+        </div>
       </div>
       <div>
         <h5 className="d-flex justify-content-between my-4">NameCrypto</h5>
@@ -28,8 +30,8 @@ const Card3 = () => {
       </div>
 
       <div className="d-flex justify-content-between">
-        <button className="timeButton">3h 50m 2s left</button>
-        <p>Place a bid</p>
+        <button className="timeButton text-primary">3h 50m 2s left</button>
+        <p className="text-primary mt-3">Place a bid</p>
       </div>
     </div>
   );

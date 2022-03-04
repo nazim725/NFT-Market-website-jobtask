@@ -7,11 +7,11 @@ import img3 from "../../images/linkedin.png";
 
 const Footer = () => {
   return (
-    <div style={{ margin: "120px 0" }}>
+    <div style={{ margin: "100px 0" }}>
       <Container>
         <Row>
           <Col sm={12} md={3}>
-            <div>
+            <div className="mt-4">
               <h1 className="text-start fw-bold ">NFters </h1>
               <p className="text-start  ">
                 The world’s first and largest digital marketplace for crypto
@@ -27,7 +27,7 @@ const Footer = () => {
             </div>
           </Col>
           <Col sm={12} md={3}>
-            <div>
+            <div className="mt-4">
               <h5 className="text-center fw-bold ">Market Place </h5>
               <div className="list">
                 <a href="">All NFTs</a>
@@ -41,7 +41,7 @@ const Footer = () => {
             </div>
           </Col>
           <Col sm={12} md={3}>
-            <div>
+            <div className="mt-4">
               <h5 className="text-center fw-bold ">My Account </h5>
               <div className="list">
                 <a href="">Profile</a>
@@ -52,7 +52,7 @@ const Footer = () => {
             </div>
           </Col>
           <Col sm={12} md={3}>
-            <div>
+            <div className="mt-4">
               <h5 className="text-start fw-bold ">Stay in the loop </h5>
               <p className="text-start">
                 Join our mailing list to stay in the loop with our newest
@@ -60,11 +60,7 @@ const Footer = () => {
                 NFTs.
               </p>
               <div className="input-div">
-                <input
-                  type="text"
-                  className="inputBox"
-                  placeholder="Email address"
-                />
+                <input className="inputBox" placeholder="Email address" />
                 <button className="subscribeButton text-white">
                   Subscribe Now
                 </button>

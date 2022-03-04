@@ -8,10 +8,10 @@
 
 .inputBox {
   width: 304px;
-  height: 60.79px;
+  height: 65.79px;
   background: #ffffff;
   border: 2px solid #f1f1f1;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   border-radius: 45.595px;
 }
 
@@ -22,11 +22,21 @@
   background: #2639ed;
   border-radius: 45.595px;
   position: absolute;
-  bottom: 7px;
-  left: 150px;
+  bottom: 3px;
+  left: 155px;
   border: 0;
 }
 
 .input-div {
   position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .list a {
+    display: block;
+    text-decoration: none;
+    text-align: start;
+    margin-left: 10px;
+    color: black;
+  }
 }

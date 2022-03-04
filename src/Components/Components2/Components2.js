@@ -17,10 +17,10 @@ import imgf from "../../images/unsplash_zkNT5mikUuo.png";
 
 const Components2 = () => {
   return (
-    <div className="mt-5">
+    <div className="">
       <Container>
         <Row>
-          <Col className="col-3" sm={12} md={3} xs={12}>
+          <Col className="col-3 mt-4" sm={12} md={3} xs={12}>
             <img src={img1} alt="" width={250} height={360} />
             <div className="d-flex  justify-content-between mt-2">
               <div className="d-flex">
@@ -41,7 +41,7 @@ const Components2 = () => {
               </div>
             </div>
           </Col>
-          <Col sm={12} md={4} xs={12} className="">
+          <Col sm={12} md={4} xs={12} className="mt-4">
             <Row>
               <Col className="col-5">
                 <img src={img4} alt="" width="130" />
@@ -50,11 +50,11 @@ const Components2 = () => {
                 <h5>The Futr Abstr</h5>
                 <div>
                   <img src={img2} alt="" />
-                  <Button variant="outline-success">
+                  <Button variant="outline-success ms-1">
                     <img src={img3} alt="" height="16" />
-                    0.25 ETH
+                    <span className="ms-2">0.25 ETH</span>
                   </Button>
-                  <span>1 of 8</span>
+                  <span className="ms-2">1 of 8</span>
                 </div>
                 <button className="bidButton mt-2">Place a bid</button>
               </Col>
@@ -67,11 +67,11 @@ const Components2 = () => {
                 <h5>The Futr Abstr</h5>
                 <div>
                   <img src={img2} alt="" />
-                  <Button variant="outline-success">
+                  <Button variant="outline-success ms-1">
                     <img src={img3} alt="" height="16" />
-                    0.25 ETH
+                    <span className="ms-2">0.25 ETH</span>
                   </Button>
-                  <span>1 of 8</span>
+                  <span className="ms-2">1 of 8</span>
                 </div>
                 <button className="bidButton mt-2">Place a bid</button>
               </Col>
@@ -84,11 +84,11 @@ const Components2 = () => {
                 <h5>The Futr Abstr</h5>
                 <div>
                   <img src={img2} alt="" />
-                  <Button variant="outline-success">
+                  <Button variant="outline-success ms-1">
                     <img src={img3} alt="" height="16" />
-                    0.25 ETH
+                    <span className="ms-2">0.25 ETH</span>
                   </Button>
-                  <span>1 of 8</span>
+                  <span className="ms-2">1 of 8</span>
                 </div>
                 <button className="bidButton mt-2">Place a bid</button>
               </Col>
@@ -97,7 +97,7 @@ const Components2 = () => {
           {/* <Col sm={12} md={4} xs={12}>
             sn=7
           </Col> */}
-          <Col className="col-5" sm={12} md={5} xs={12}>
+          <Col className="col-5 mt-4" sm={12} md={5} xs={12}>
             <h5 className="fw-bold text-start ms-4">Top Collections over </h5>
             <p className="fw-bold text-primary text-start  ms-4">Last 7 days</p>
             <Row>
@@ -113,7 +113,7 @@ const Components2 = () => {
                 </div>
               </Col>
               <Col className="d-flex align-items-center">
-                <h5>+26.52%</h5>
+                <h5 style={{ color: "#14C8B0" }}>+26.52%</h5>
               </Col>
             </Row>
             <Row>
@@ -129,7 +129,7 @@ const Components2 = () => {
                 </div>
               </Col>
               <Col className="d-flex align-items-center">
-                <h5>+26.52%</h5>
+                <h5 style={{ color: "#FF002E" }}>+26.52%</h5>
               </Col>
             </Row>
             <Row>
@@ -145,7 +145,7 @@ const Components2 = () => {
                 </div>
               </Col>
               <Col className="d-flex align-items-center">
-                <h5>+26.52%</h5>
+                <h5 style={{ color: "#14C8B0" }}>+26.52%</h5>
               </Col>
             </Row>
             <Row>
@@ -161,7 +161,7 @@ const Components2 = () => {
                 </div>
               </Col>
               <Col className="d-flex align-items-center">
-                <h5>+26.52%</h5>
+                <h5 style={{ color: "#14C8B0" }}>+26.52%</h5>
               </Col>
             </Row>
             <Row>
@@ -177,7 +177,7 @@ const Components2 = () => {
                 </div>
               </Col>
               <Col className="d-flex align-items-center">
-                <h5>+26.52%</h5>
+                <h5 style={{ color: "#FF002E" }}>+26.52%</h5>
               </Col>
             </Row>
           </Col>
